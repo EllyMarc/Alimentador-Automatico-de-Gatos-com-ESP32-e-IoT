@@ -103,8 +103,8 @@ A imagem abaixo ilustra o painel de controle do site, onde é possível acompanh
 
 Outro obstáculo importante foi a complexidade excessiva do primeiro protótipo, que utilizava múltiplos servomotores e sensores redundantes, resultando em alto custo, manutenção complicada e falhas frequentes. Simplificamos radicalmente o design, substituindo os componentes por um único motor de passo e um sistema de alavanca, além de reduzir os sensores ao essencial. Essas mudanças não apenas diminuíram a taxa de falhas, mas também tornaram o dispositivo mais acessível e fácil de manter, abaixo mostra-se o antigo e atual modelo do circuito que ultilizamos.
 
-<img src="imagensREADME/sistemaAntigo.png" width="300" alt="Circuito idealizado inicialmente">
-<img src="imagensREADME/sistemaAtual.png" width="300" alt="Circuito utilizado">
+<img src="imagensREADME/sistemaAntigo.jpg" width="300" alt="Circuito idealizado inicialmente">
+<img src="imagensREADME/sistemaAtual.jpg" width="300" alt="Circuito utilizado">
 
 
 A compatibilidade técnica também foi um desafio, especialmente com a IDE Arduino mais recente, que apresentava problemas com o sistema de arquivos SPIFFS. Optamos por fazer um downgrade para a versão 1.8.19, que oferecia suporte estável e resolvia os erros de corrupção de arquivos. Essa decisão garantiu a confiabilidade do sistema e manteve a compatibilidade com o hardware utilizado.
