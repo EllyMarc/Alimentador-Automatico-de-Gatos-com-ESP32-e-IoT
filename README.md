@@ -47,7 +47,7 @@ Para o desenvolvimento do alimentador automático inteligente, foram selecionado
 O circuito conecta uma placa de controle ESP32 a um servo motor que libera a ração. Os pinos RX/TX permitem comunicação, enquanto D10-D13 controlam o servo via PWM. O servo tem três conexões básicas: alimentação (PWR), sinal (SB0) e terra (GB0).
 
 
-<img src="imagensREADME/circuito.png" width="200" alt="Circuito utilizado">
+<img src="imagensREADME/circuito.png" width="300" alt="Circuito utilizado">
 
 
  Quando acionado pela placa por horário programado, o servo abre o compartimento de ração. O circuito é simples e versátil, podendo ser melhor visualizado com ferramentas como Fritzing.
@@ -55,14 +55,14 @@ O circuito conecta uma placa de controle ESP32 a um servo motor que libera a ra�
 
  A seguir, será apresentado o fluxograma que descreve o funcionamento lógico do alimentador automático. Este diagrama ilustra de maneira sistemática a sequência de operações executadas pelo sistema, desde a inicialização do dispositivo até a liberação controlada da ração, passando por todas as etapas de verificação e acionamento dos componentes.
 
-![Fluxograma utilizado para a programação](imagensREADME/fluxograma.png)
+<img src="imagensREADME/fluxograma.png" width="300" alt="Fluxograma utilizado para a programação">
 
 
 O desenvolvimento do modelo 3D representou uma etapa crucial no projeto, permitindo a visualização em si e espacial completa do alimentador antes da prototipagem física, para melhor entender o que seria feito. Utilizando ferramenta de design tinkercad, foi possível criar uma representação fiel que integra todos os componentes eletrônicos e mecânicos em um formato ergonômico e funcional.
 
+<img src="imagensREADME/modelo3d_explodido.png" width="300" alt="Modelo 3d (explodido)">
+<img src="imagensREADME/modelo3d_montado.png" width="300" alt="Modelo 3d (montado)">
 
-![Modelo 3d (explodido)](imagensREADME/modelo3d_explodido.png)
-![Modelo 3d (montado)](imagensREADME/modelo3d_montado.png)
 
 ## 4. Resultados e Testes de Funcionamento
 Durante o desenvolvimento do projeto, enfrentamos diversos desafios técnicos que exigiram ajustes significativos. Inicialmente, tivemos problemas com a conexão do ESP usando dados móveis, que se mostrou instável e com alto consumo energético. A solução foi migrar para um roteador Wi-Fi, resultando em conexão mais estável (99,7 por cento de uptime) e latência reduzida.
@@ -97,15 +97,15 @@ Apesar das dificuldades, o resultado final comprova que soluções acessíveis p
 
 A imagem abaixo ilustra o painel de controle do site, onde é possível acompanhar em tempo real o status do alimentador:
 
-
-![Logo e botão](imagensREADME/logoBotao.png)
-![Informações e funcionalidades apresentada no monitor](imagensREADME/Infos_Funcionalidades.png)
+<img src="imagensREADME/logoBotao.png" width="300" alt="Logo e botão">
+<img src="imagensREADME/Infos_Funcionalidades.png" width="300" alt="Informações e funcionalidades apresentada no monitor">
 
 
 Outro obstáculo importante foi a complexidade excessiva do primeiro protótipo, que utilizava múltiplos servomotores e sensores redundantes, resultando em alto custo, manutenção complicada e falhas frequentes. Simplificamos radicalmente o design, substituindo os componentes por um único motor de passo e um sistema de alavanca, além de reduzir os sensores ao essencial. Essas mudanças não apenas diminuíram a taxa de falhas, mas também tornaram o dispositivo mais acessível e fácil de manter, abaixo mostra-se o antigo e atual modelo do circuito que ultilizamos.
 
-![Circuito idealizado inicialmente](imagensREADME/sistemaAntigo.png)
-![Circuito utilizado](imagensREADME/sistemaAtual.png)
+<img src="imagensREADME/sistemaAntigo.png" width="300" alt="Circuito idealizado inicialmente">
+<img src="imagensREADME/sistemaAtual.png" width="300" alt="Circuito utilizado">
+
 
 A compatibilidade técnica também foi um desafio, especialmente com a IDE Arduino mais recente, que apresentava problemas com o sistema de arquivos SPIFFS. Optamos por fazer um downgrade para a versão 1.8.19, que oferecia suporte estável e resolvia os erros de corrupção de arquivos. Essa decisão garantiu a confiabilidade do sistema e manteve a compatibilidade com o hardware utilizado.
     
