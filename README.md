@@ -55,7 +55,7 @@ O circuito conecta uma placa de controle ESP32 a um servo motor que libera a ra�
 
  A seguir, será apresentado o fluxograma que descreve o funcionamento lógico do alimentador automático. Este diagrama ilustra de maneira sistemática a sequência de operações executadas pelo sistema, desde a inicialização do dispositivo até a liberação controlada da ração, passando por todas as etapas de verificação e acionamento dos componentes.
 
-<img src="imagensREADME/fluxograma.png" width="300" alt="Fluxograma utilizado para a programação">
+<img src="imagensREADME/fluxograma.jpg" width="300" alt="Fluxograma utilizado para a programação">
 
 
 O desenvolvimento do modelo 3D representou uma etapa crucial no projeto, permitindo a visualização em si e espacial completa do alimentador antes da prototipagem física, para melhor entender o que seria feito. Utilizando ferramenta de design tinkercad, foi possível criar uma representação fiel que integra todos os componentes eletrônicos e mecânicos em um formato ergonômico e funcional.
