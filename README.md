@@ -4,7 +4,7 @@
 This paper presents the design of an automatic cat feeder using ESP32, featuring a servo motor-activated food dispensing mechanism. The prototype demonstrated reliable operation in maintaining its intended functionality and meeting its proposed objectives. Future improvements could focus on enhancing mechanical durability and energy efficiency. 
 
 ### Resumo
-Este trabalho apresenta o projeto de um alimentador automático para gatos utilizando ESP32. Com um mecanismo que libera a ração acionado por servo motor. O protótipo demonstrou funcionamento confiável na manutenção e na proposta que ele visa oferecer. Melhorias futuras podem focar na durabilidade mecânica e eficiência energética. 
+Este trabalho apresenta o projeto de um alimentador automático para gatos utilizando ESP32. Com um mecanismo que libera a ração acionado por servo motor. O protótipo demonstrou funcionamento confiável na manutenção e na proposta que ele visa oferecer. Melhorias futuras podem focar na durabilidade mecânica e eficiência. 
 
 ## 1. introdução
 A tecnologia tem transformado a maneira como cuidamos dos nossos animais de estimação, oferecendo soluções práticas que facilitam o dia a dia e garantem o bem-estar dos pets. No caso dos gatos, animais com hábitos alimentares regulares e sensíveis a mudanças em sua rotina, a automação pode ser uma grande aliada para manter uma alimentação equilibrada e evitar problemas como obesidade ou desnutrição devido à alimentação irregular.
@@ -134,3 +134,6 @@ DAMASCENO, Juliana. Como os produtos automatizados podem prejudicar o bem-
 estar do seu gato. Pet Conecta Digital, 21 fev. 2023. Disponnível em: https://
 www.petconectadigital.com.br/coluna/juliana-damasceno. Acesso
 em: 21 jun. 2025.
+
+### Informação adiconal
+Ciência da Computação - Eletrônica para a computação - 1º Semestre -- Universidade Federal de Rondônia (UNIR)
