@@ -47,7 +47,7 @@ Para o desenvolvimento do alimentador automático inteligente, foram selecionado
 O circuito conecta uma placa de controle ESP32 a um servo motor que libera a ração. Os pinos RX/TX permitem comunicação, enquanto D10-D13 controlam o servo via PWM. O servo tem três conexões básicas: alimentação (PWR), sinal (SB0) e terra (GB0).
 
 
-![Circuito utilizado](imagensREADME/circuitos.png)
+<img src="imagensREADME/circuito.png" width="200" alt="Circuito utilizado">
 
 
  Quando acionado pela placa por horário programado, o servo abre o compartimento de ração. O circuito é simples e versátil, podendo ser melhor visualizado com ferramentas como Fritzing.
