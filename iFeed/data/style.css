@@ -1,0 +1,173 @@
+:root {
+    --cor-principal: #f681d1;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    background: linear-gradient(180deg, #fbb5a2 0%, #fcd0b0 100%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.butaozinho {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: white;
+    border: none;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+
+    & img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.butaozinho h3 {
+    margin-top: 8px;
+    font-size: small;
+    color: white;
+}
+
+.dados {
+    width: 90%;
+    margin: 40px 0;
+}
+
+.monitor {
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 2px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.sessao {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.fotinha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff5ebf;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.info {
+    width: 80%;
+    padding: 8px;
+    height: 60px;
+}
+
+.letra {
+    font-size: 14px;
+    color: black;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.barra {
+    margin: auto;
+    width: 90%;
+    height: 8px;
+    border-radius: 5px;
+    background-color: rgb(248, 248, 248);
+    margin-top: 5px;
+}
+
+#barra-progresso {
+    width: 0%;
+    height: 100%;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #ff5fc0 0%, #ffa162 100%);
+    transition: width 0.5s ease;
+}
+
+
+#contador-tempo {
+    margin: auto;
+    width: auto;
+    text-align: center;
+
+}
+
+.status-indicador {
+    margin: auto;
+    width: auto;
+    padding: 5px 0;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.funcionando {
+    background-color: purple;
+    color: rgb(245, 120, 245);
+}
+
+.alimentado {
+    background-color: green;
+    color: rgb(131, 232, 131);
+}
+
+.repouso {
+    background-color: gray;
+    color: rgb(232, 232, 232);
+}
+
+img {
+    width: 80%;
+    height: 80%;
+}
+
+footer {
+    background-color: #fcd0b0;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    & p {
+        color: white;
+    }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/imagens/favicon.png" type="image/x-icon">
+  
+  <title>iFeed</title>
+</head>
+
+<body>
+  <main>
+    <section class="butaozinho">
+      <button id="botao-clique" onclick="handleBotaoClique()"><img src="/imagens/iFeed.png" alt=""></button>
+
+      <h3 id="status-clique">Clique!</h3>
+    </section>
+
+    <section class="dados">
+      <div class="monitor">
+
+        <!-- Sessão alimentação -->
+        <div class="sessao">
+          <div class="fotinha">
+            <img src="/imagens/osso.png" alt="">
+          </div>
+          <div class="info">
+            <p class="letra">Quantidade de refeições: <span id="contador-texto">0/10</span></p>
+            <div class="barra">
+              <div id="barra-progresso"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sessão tempo -->
+        <div class="sessao">
+          <div class="fotinha">
+            <img src="imagens/alarme.png" alt="">
+          </div>
+          <div class="info">
+            <div id="quadrado-tempo">
+              <p>Tempo Restante:</p>
+              <div class="borda-tempo">
+                <h2 id="contador-tempo">--:--:--</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sessão status -->
+        <div class="sessao">
+          <div class="fotinha">
+            <img src="./imagens/notifica.png" alt="">
+          </div>
+          <div class="info">
+            <p>Estado atual: <span id="status-led">Desligado</span></p>
+            <div id="status-servo" class="status-indicador">Em Repouso</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projeto Final - Eletrônica para a computação, desenvolvido por Anderson, Clarice, Jamile e Marcelly</p>
+    <p>Universidade Federal de Rondônia - UNIR</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
