@@ -121,10 +121,10 @@ function iniciarTemporizador() {
     .catch(console.error);
 }
 
-
+//Quando a página web carregar completamente, essas funções serão executadas
 window.onload = () => {
   atualizarContadorTempo();
-  setInterval(atualizarContadorTempo, 1000); // ← ADICIONADO
+  setInterval(atualizarContadorTempo, 1000);
   setStatusServo('repouso');
   iniciarTemporizador();
   atualizarUI();
